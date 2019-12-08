@@ -6,7 +6,6 @@ import STORE from './store.js';
 const stuff = [{title:'one',content:'stuff'},{title:'two',content:'stuff'},{title:'three',content:'stuff'}];
 
 function List(props){
-
     /*const cards = stuff.map((item) => <Card title={item.title} content={item.content}/>);
     let test = STORE.allCards;
     let test2 = props.cardIds[0];
@@ -22,7 +21,7 @@ function List(props){
             }
         }
     });
-    console.log(cards);
+    //console.log(cards);
 
     return(<section className='List'>
         <header className='List-header'>
